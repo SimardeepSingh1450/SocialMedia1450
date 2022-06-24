@@ -1,0 +1,64 @@
+.Home{
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.Home .Post{
+    width:500px;
+    height:480px;
+    border:2px solid black;
+    box-shadow:2px 2px 50px black;
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.Home .Post .Image{
+    flex:70%;
+    padding:10px;
+    background-color: brown;
+}
+
+.Home .Post .Image img{
+    width:100%;
+    box-shadow: 2px 2px 17px rgb(40, 248, 40);
+}
+
+.Home .Post .Content{
+    flex:30%;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.Home .Post .Content .title {
+    flex: 30%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.Home .Post .Content .description {
+    flex: 50%;
+    font-family: 'Trebuchet MS', ' Lucida Sans Unicode', ' Lucida Grande', ' Lucida Sans', Arial, sans-serif;
+     text-align: center;
+}
+
+.Home .Post .like{
+    flex:20%;
+    display:grid;
+    place-items: center;
+}
+
+.Home .Post .like #thumb {
+   font-size:25px;
+    color: grey;
+}
+
+.Home .Post .like #thumb:hover{
+    cursor:pointer;
+    color:black;
+}

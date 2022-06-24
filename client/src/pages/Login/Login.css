@@ -1,0 +1,36 @@
+.Login {
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.LoginForm input,
+button {
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.LoginForm button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Trebuchet MS';
+}

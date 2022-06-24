@@ -1,0 +1,64 @@
+.Profile{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile .Post {
+    width: 500px;
+    height: 480px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 50px black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.Profile .Post .Image {
+    flex: 70%;
+    padding: 10px;
+    background-color: brown;
+}
+
+.Profile .Post .Image img {
+    width: 100%;
+    box-shadow: 2px 2px 17px rgb(40, 248, 40);
+}
+
+.Profile .Post .Content {
+    flex: 30%;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.Profile .Post .Content .title {
+    flex: 30%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.Profile .Post .Content .description {
+    flex: 50%;
+    font-family: 'Trebuchet MS', ' Lucida Sans Unicode', ' Lucida Grande', ' Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.Profile .Post .like {
+    flex: 20%;
+    display: grid;
+    place-items: center;
+}
+
+.Profile .Post .like #thumb {
+    font-size: 25px;
+    color: grey;
+}
+
+.Profile .Post .like #thumb:hover {
+    cursor: pointer;
+    color: black;
+}
